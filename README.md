@@ -12,13 +12,60 @@ List React component files inside a directory
 
 ## Usage
 
+Example with [ARc](https://github.com/diegohaz/arc) codebase:
+
 ```js
 import listReactFiles from 'list-react-files'
 
 listReactFiles(__dirname).then(files => console.log(files))
+/* 
+[ 
+  'src-example/components/App.js',
+  'src-example/components/atoms/Atom/index.js',
+  'src-example/components/atoms/Badge/index.js',
+  'src-example/components/atoms/Block/index.js',
+  'src-example/components/atoms/Button/index.js',
+  'src-example/components/atoms/Caption/index.js',
+  'src-example/components/atoms/Heading/index.js',
+  'src-example/components/atoms/HorizontalRule/index.js',
+  'src-example/components/atoms/Icon/index.js',
+  'src-example/components/atoms/Input/index.js',
+  'src-example/components/atoms/Label/index.js',
+  'src-example/components/atoms/Link/index.js',
+  'src-example/components/atoms/List/index.js',
+  'src-example/components/atoms/LogoImage/index.js',
+  'src-example/components/atoms/Paragraph/index.js',
+  'src-example/components/atoms/PreformattedText/index.js',
+  'src-example/components/atoms/Spinner/index.js',
+  'src-example/components/atoms/TableCell/index.js',
+  'src-example/components/atoms/TableRow/index.js',
+  'src-example/components/atoms/Tooltip/index.js',
+  'src-example/components/molecules/Blockquote/index.js',
+  'src-example/components/molecules/Feature/index.js',
+  'src-example/components/molecules/Field/index.js',
+  'src-example/components/molecules/IconButton/index.js',
+  'src-example/components/molecules/IconLink/index.js',
+  'src-example/components/molecules/Modal/index.js',
+  'src-example/components/molecules/Molecule/index.js',
+  'src-example/components/molecules/PrimaryNavigation/index.js',
+  'src-example/components/molecules/Slider/index.js',
+  'src-example/components/molecules/Table/index.js',
+  'src-example/components/organisms/FeatureList/index.js',
+  'src-example/components/organisms/Footer/index.js',
+  'src-example/components/organisms/Header/index.js',
+  'src-example/components/organisms/Hero/index.js',
+  'src-example/components/organisms/Organism/index.js',
+  'src-example/components/pages/GenericPage/index.js',
+  'src-example/components/pages/HomePage/index.js',
+  'src-example/components/pages/NotFoundPage/index.js',
+  'src-example/components/pages/SamplePage/index.js',
+  'src-example/components/templates/GenericTemplate/index.js',
+  'src-example/components/templates/PageTemplate/index.js',
+  'src/components/App.js',
+  'src/components/pages/HomePage/index.js'
+ ] 
+ */
 ```
-
-See [tests](test/index.test.js)
 
 ## API
 
