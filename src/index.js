@@ -13,7 +13,12 @@ const globs = {
 const listReactFiles = (cwd: string): Promise<string[]> => {
   const patterns = Object.keys(globs).map(key => globs[key])
   const pattern = `**/{${patterns.join(',')}}`
-  const ignore = ['**/node_modules/**']
+  const ignore = [
+    '**/node_modules/**',
+    '**/{__tests__,test,tests}/**',
+    '**/*.{test,spec}.*',
+  ]
+
   return new Promise((resolve, reject) => {
     glob(pattern, { cwd, ignore }, (err, files) => {
       // istanbul ignore next
