@@ -1,5 +1,7 @@
 # list-react-files
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/diegohaz/list-react-files.svg)](https://greenkeeper.io/)
+
 [![Generated with nod](https://img.shields.io/badge/generator-nod-2196F3.svg?style=flat-square)](https://github.com/diegohaz/nod)
 [![NPM version](https://img.shields.io/npm/v/list-react-files.svg?style=flat-square)](https://npmjs.org/package/list-react-files)
 [![Build Status](https://img.shields.io/travis/diegohaz/list-react-files/master.svg?style=flat-square)](https://travis-ci.org/diegohaz/list-react-files) [![Coverage Status](https://img.shields.io/codecov/c/github/diegohaz/list-react-files/master.svg?style=flat-square)](https://codecov.io/gh/diegohaz/list-react-files/branch/master)
