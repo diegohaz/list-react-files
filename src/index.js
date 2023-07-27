@@ -17,6 +17,7 @@ const listReactFiles = (cwd: string): Promise<string[]> => {
     '**/node_modules/**',
     '**/{__tests__,test,tests}/**',
     '**/*.{test,spec}.*',
+    '**/*.stories.{js,jsx,ts,tsx}',
   ]
 
   return new Promise((resolve, reject) => {
